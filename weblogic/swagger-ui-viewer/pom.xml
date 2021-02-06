@@ -2,11 +2,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>hn.com.tigo.api.upsell</groupId>
-		<artifactId>upsell-portal-api</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+	<groupId>jcperezz.java-examples</groupId>
+	<version>0.0.1-SNAPSHOT</version>
+
 	<artifactId>swagger-ui-viewer</artifactId>
 	<packaging>war</packaging>
 
@@ -46,6 +44,7 @@
 			<plugin>
 
 				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.1.1</version>
 				<executions>
 					<execution>
 						<phase>prepare-package</phase>
